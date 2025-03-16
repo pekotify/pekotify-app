@@ -1,5 +1,5 @@
 <?php
-define('DB_SERVER', 'host.docker.internal:3308');
+define('DB_SERVER', 'db');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_DATABASE', 'pekotify');
