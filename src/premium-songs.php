@@ -30,7 +30,7 @@
                 <tr style="height: 12px"></tr>
                 <?php
                     require_once "component/song-premium.php";
-                    $data = file_get_contents("http://host.docker.internal:3001/user-songs/".$_SESSION['user_id']);
+                    $data = file_get_contents("http://rest-web/user-songs/".$_SESSION['user_id']);
                     $json = json_decode($data);
                     $i = 1;
                     if ($json != null) {

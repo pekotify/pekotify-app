@@ -49,10 +49,10 @@
             <h1>Premium Artists</h1>
             <div class="premium-artists-container">
                 <?php
-                // echo file_get_contents("http://host.docker.internal:4444/ws/Subscription?wsdl");
+                // echo file_get_contents("http://soap-web/ws/Subscription?wsdl");
                 $user_id = $_SESSION['user_id'];
                 require_once "component/artist.php";
-                $data = file_get_contents("http://host.docker.internal:3001/singers");
+                $data = file_get_contents("http://rest-web/singers");
                 $json = json_decode($data);
                 
                 require_once "config.php";
