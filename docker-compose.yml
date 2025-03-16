@@ -23,4 +23,4 @@ services:
   
 networks:
   test_pekotify:
-    driver: bridge
+    external: true
