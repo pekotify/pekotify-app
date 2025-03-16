@@ -18,6 +18,8 @@ services:
       MYSQL_ROOT_PASSWORD:
       MYSQL_DATABASE: pekotify
       MYSQL_ALLOW_EMPTY_PASSWORD: yes
+    networks:
+      - test_pekotify
   
 networks:
   test_pekotify:
