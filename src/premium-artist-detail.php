@@ -39,7 +39,7 @@
                 require_once "component/song-premium.php";
                 $user_id = $_SESSION['user_id'];
                 $artist_id = $_GET['artist_id'];
-                $data = file_get_contents("http://host.docker.internal:3010/user-songs/$user_id/$artist_id");
+                $data = file_get_contents("http://rest-web/user-songs/$user_id/$artist_id");
                 $json = json_decode($data);
                 if ($json != null) {
                     $i = 1;

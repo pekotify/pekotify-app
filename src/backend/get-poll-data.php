@@ -11,7 +11,7 @@ $opts = array('http' =>
 
 $context  = stream_context_create($opts);
 
-$result = file_get_contents('http://host.docker.internal:4444/ws/Subscription?wsdl', false, $context);
+$result = file_get_contents('http://soap-web/ws/Subscription?wsdl', false, $context);
 
 echo $result;
 ?>
