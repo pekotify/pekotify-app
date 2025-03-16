@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Remove margins */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans";
+  color: #ffffff;
+}
+
+/* Style the body */
+
+body {
+  background-color: #121212;
+}
+
+.home {
+  width: initial;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.gradien-background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 961px;
+  background: rgb(18, 18, 18);
+  background: linear-gradient(0deg,
+      rgba(18, 18, 18, 1) 50%,
+      rgba(82, 161, 194, 1) 90%,
+      rgba(114, 213, 254, 1) 100%);
+}
+
+.gradien-background-small {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 961px;
+  background: rgb(18, 18, 18);
+  background: linear-gradient(0deg,
+      rgba(18, 18, 18, 1) 70%,
+      rgba(82, 161, 194, 1) 93%,
+      rgba(114, 213, 254, 1) 100%);
+}
