@@ -1,13 +1,11 @@
 version: '3.3'
 services:
-  main-web:
+  web:
     image: tubes-1:latest
     ports:
       - 8008:80
     volumes:
       - ./src:/var/www/html
-    networks:
-      - test_pekotify
   db:
     image: mysql:latest
     ports:
@@ -18,9 +16,3 @@ services:
       MYSQL_ROOT_PASSWORD:
       MYSQL_DATABASE: pekotify
       MYSQL_ALLOW_EMPTY_PASSWORD: yes
-    networks:
-      - test_pekotify
-  
-networks:
-  test_pekotify:
-    external: true
