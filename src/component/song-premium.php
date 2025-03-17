@@ -1,6 +1,6 @@
 <?php
     function echo_song_premium($no = "0", $title = "title", $artist = "artist", $id = "0", $song_path = "") {
-        $song_path = "http://localhost:3010/premium-songs/".$song_path;
+        $song_path = "http://localhost:3001/premium-songs/".$song_path;
         $html = <<<"EOT"
         <tr class="song song-premium">
             <td class="table-left">
