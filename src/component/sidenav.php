@@ -17,8 +17,6 @@
                     <a href="albums.php"><img class="nav-icon" src="../img/icon/albums.png">Albums</a>
                     <a href="add-page.php"><img class="nav-icon" src="../img/icon/add.png">Add</a>
                     <a href="user-list.php"><img class="nav-icon" src="../img/icon/users.png">Users</a>
-                    <a href="premium-songs.php"><img class="nav-icon" src="../img/icon/premium-songs.png">Premium Songs</a>
-                    <a href="premium-artists.php"><img class="nav-icon" src="../img/icon/premium.png">Premium Artists</a>
                     <a href="logout.php"><img class="nav-icon" src="../img/icon/log-out.png">Log Out</a>
                 </nav>
                 <div class="content-margin"></div>
@@ -34,8 +32,6 @@
                         <a href="home.php"><img class="nav-icon" src="../img/icon/home.png">Home</a>
                         <a href="search.php"><img class="nav-icon" src="../img/icon/search.png">Search</a>
                         <a href="albums.php"><img class="nav-icon" src="../img/icon/albums.png">Albums</a>
-                        <a href="premium-artists.php"><img class="nav-icon" src="../img/icon/premium.png">Premium Artists</a>
-                        <a href="premium-songs.php"><img class="nav-icon" src="../img/icon/premium-songs.png">Premium Songs</a>
                         <a href="logout.php"><img class="nav-icon" src="../img/icon/log-out.png">Log Out</a>
                     </nav>
                     <div class="content-margin"></div>
@@ -50,8 +46,6 @@
                         <a href="home.php"><img class="nav-icon" src="../img/icon/home.png">Home</a>
                         <a href="search.php"><img class="nav-icon" src="../img/icon/search.png">Search</a>
                         <a href="albums.php"><img class="nav-icon" src="../img/icon/albums.png">Albums</a>
-                        <a href="premium-artists.php"><img class="nav-icon" src="../img/icon/premium.png">Premium Artists</a>
-                        <a href="premium-songs.php"><img class="nav-icon" src="../img/icon/premium-songs.png">Premium Songs</a>
                         <a href="logout.php"><img class="nav-icon" src="../img/icon/log-out.png">Log Out</a>
                     </nav>
                     <div class="content-margin"></div>
